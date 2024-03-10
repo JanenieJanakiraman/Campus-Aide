@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#details, #speedDisplay {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#details {
+    max-width: 500px;
+}
+
+#details h2, #speedDisplay h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#details p, #speedDisplay p {
+    margin: 5px 0;
+    color: #666;
+}
+
+#details p.speed-info {
+    font-weight: bold;
+}
+
+#speedDisplay {
+    text-align: center;
+}
+
+#speedDisplay p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+/* Stylish text for "Campus Aide" */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #5c1361;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 1000; /* Ensures it appears above other elements */
+}
